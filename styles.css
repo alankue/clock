@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 #digital-clock {
- background-color: #66ffff;
+ color: #00FF00;
+ background-color: black;
  width: 35%;
  margin: auto;
  padding-top: 50px;
