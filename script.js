@@ -4,13 +4,13 @@ function Time() {
     var hour = date.getHours();
     var minute = date.getMinutes();
     var second = date.getSeconds();
-    
-    // Store and assign AM / PM
+        
+    // Store and assign pm/am
     var period = "";
     if (hour >= 12) {
-    period = "PM";
+    period = "pm";
     } else {
-    period = "AM";
+    period = "am";
     }
 
     // Convert to 12-hour format
@@ -27,9 +27,9 @@ function Time() {
  second = update(second);
  
  // Insert script into html
- document.getElementById("digital-clock").innerText = hour + " : " + minute + " : " + second + " " + period;
+ document.getElementById("digital-clock").innerText = hour + ": " + minute + ": " + second + " " + period;
  
- // Set Timer to 1 sec (1000 ms)
+ // Set timer to 1 sec 
  setTimeout(Time, 1000);
 }
 
