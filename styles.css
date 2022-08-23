@@ -1,6 +1,10 @@
+body {
+    background-color: black;
+}
+
 #digital-clock {
  color: #00FF00;
- background-color: #282828;
+ background-color: black;
  width: 35%;
  margin: auto;
  padding-top: 40px;
